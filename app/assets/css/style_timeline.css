@@ -1033,8 +1033,8 @@ h1, .text-xxl {
 }
 
 h2, .text-xl {
-    font-size: 1.728em;
-    font-size: var(--text-xl, 1.728em)
+    font-size: 1.4em;
+    font-size: var(--text-xl, 1.5em)
 }
 
 h3, .text-lg {
@@ -3574,7 +3574,7 @@ body {
     z-index: 1;
     left: 0;
     top: 49px;
-    height: 2px;
+    height: 3px;
     background-color: hsl(0, 0%, 0%);
     background-color: hsl(var(--cd-color-3-h), var(--cd-color-3-s), calc(var(--cd-color-3-l) * 0.9));
     transition: -webkit-transform 0.4s;
