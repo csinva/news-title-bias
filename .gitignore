@@ -25,3 +25,5 @@ experiments/fake_news/very_large_data
 **logs*
 **egg*
 venv
+app/content_table.html
+app/timeline_header.html
