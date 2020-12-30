@@ -13,8 +13,8 @@
 		this.contentWrapper = this.element.getElementsByClassName('cd-h-timeline__events')[0];
 		this.content = this.contentWrapper.getElementsByClassName('cd-h-timeline__event');
 		
-		this.eventsMinDistance = 60; // min distance between two consecutive events (in px)
-		this.eventsMaxDistance = 200; // max distance between two consecutive events (in px)
+		this.eventsMinDistance = 25; // min distance between two consecutive events (in px), default: 60
+		this.eventsMaxDistance = 199; // max distance between two consecutive events (in px), default: 200
 		this.translate = 0; // this will be used to store the translate value of this.line
 		this.lineLength = 0; //total length of this.line
 		
